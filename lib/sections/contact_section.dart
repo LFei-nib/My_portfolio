@@ -44,6 +44,12 @@ class ContactSection extends StatelessWidget {
                 label: "Email",
                 onTap: () => _launchURL("mailto:paizayoo2120tt@gmail.com"),
               ),
+              const SizedBox(width: 20,),
+              _socialIcon(
+                icon: Icons.device_hub,
+                label: "Github",
+                onTap: () => _launchURL("https://github.com/LFei-nib"),
+              ),
             ],
           ),
 
